@@ -1,6 +1,6 @@
 
 
-const url = 'https://raw.githubusercontent.com/arturmsoares/lista03a/main/aluno.json';
+const url = 'https://github.com/arturmsoares/Projeto-Front-End-Web-JavaScript/blob/main/Lista03A/aluno.json';
 
 export function getNomeHttpResquest() {
     let xhttp = new XMLHttpRequest();
