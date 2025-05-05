@@ -2,9 +2,6 @@ import getMoviesComplete from "./tmdb.js";
 
 window.addEventListener("DOMContentLoaded", () => {
 
-    // const gatos = getCats();
-    // console.log(gatos);
-    // document.getElementById("btnShowMovies").addEventListener("click", showMovies);
     showMovies();
 
 });
@@ -12,7 +9,7 @@ window.addEventListener("DOMContentLoaded", () => {
 
 
 const showMovies = async () => {
-    // showMsgAlerta("Processando, aguarde...");
+
     const { movies, genres } = await getMoviesComplete();//aguarda a função assincrona ser executada 
     // para inseri-la em uma variável
 
@@ -36,7 +33,7 @@ const showMovies = async () => {
             movieCard.appendChild(p1);
         
             const li0 = document.createElement("li");
-            li0.innerHTML = `Sinopse: ${movie.overview}`;
+            li0.innerHTML = `Sinopse: ${movie.overview || "indisponível"}`;
             li0.className = "filmSinopse";
             movieCard.appendChild(li0);
         
@@ -54,16 +51,8 @@ const showMovies = async () => {
             moviePanel.appendChild(movieCard);
         });
 
-        // showMsgAlerta("");
-        // console.log
 
     }
-    // else {
-    //     showMsgAlerta("Erro no carregamento dos gatos");
-    // }
+
 
 }
-
-// const showMsgAlerta = (msg) => {
-//     document.getElementById("msgAlerta").innerHTML = msg;
-// }
