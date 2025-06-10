@@ -1,0 +1,13 @@
+.secaoServicos {
+    width: 1200px;
+    margin: auto;
+    font-family: arial;
+    margin-bottom: 100px;
+}
+
+.secaoServicos h2 {
+    color: darkblue;
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+
