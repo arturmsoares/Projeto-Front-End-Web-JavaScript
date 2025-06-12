@@ -4,15 +4,37 @@
     justify-content: center;
     flex-wrap: wrap;
     margin-top: 50px;
-    border: 1px solid red;
 }
 
 .container > div{
     border: 1px solid gray;
-    width: 300px;
+    box-sizing: border-box;
+    flex: 1;
     margin: 15px;
     padding: 40px 20px;
     text-align: center;
     box-shadow: 1px 1px 5px gray;
     border-radius: 4px;
+
 }
+
+.container > div:hover{
+    background-color: lightblue;
+}
+
+
+.icone{
+    color: blue;
+    font-size: 48px;
+}
+
+
+.container p{
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: darkblue;
+}
+
+
+
+
