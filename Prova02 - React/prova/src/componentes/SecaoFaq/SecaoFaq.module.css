@@ -1,0 +1,16 @@
+.secaoFaq{
+    padding: 30px;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}
+
+.secaoFaq h2{
+    text-align: center;
+}
+
+
+.perguntas{
+    font-weight: bold;
+}

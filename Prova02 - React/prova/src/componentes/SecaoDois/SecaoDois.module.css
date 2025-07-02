@@ -1,0 +1,24 @@
+.secaoDois {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 30px;
+    background-color: pink;
+}
+
+.secaoDois>div {
+    display: flex;
+    padding: 30px;
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}
+
+.imagem {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}

@@ -1,0 +1,16 @@
+.email{
+    padding: 10px;
+    border-style: none;
+    border-radius: 10px;
+    width: 300px;
+}
+
+.button{
+    margin: 10px;
+    background-color: maroon;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border-style: none;
+
+}
